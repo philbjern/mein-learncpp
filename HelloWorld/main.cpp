@@ -6,8 +6,7 @@ bool is_old_prick(int age) {
 
 void ageist_greeing(int age) {
   if (is_old_prick(age)) {
-    std::cout << "Hello you old prick, yer are "
-    << age << " years old" << std::endl;
+    std::cout << "Hello you old prick, yer are " << age << " years old" << std::endl;
   } else {
     std::cout << "Hello, yer are " << age << " years old young buck" << std::endl;
   }
