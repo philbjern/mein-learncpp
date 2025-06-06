@@ -1,10 +1,12 @@
 #include <iostream>
 
-bool is_old_prick(int age) {
+bool is_old_prick(int age) 
+{
   return age > 30;
 }
 
-void ageist_greeing(int age) {
+void ageist_greeing(int age) 
+{
   if (is_old_prick(age)) {
     std::cout << "Hello you old prick, yer are " << age << " years old" << std::endl;
   } else {
